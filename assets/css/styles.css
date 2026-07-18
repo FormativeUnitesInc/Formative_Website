@@ -480,6 +480,7 @@ ul { list-style: none; }
 .cta-strip h2 { font-size: clamp(1.25rem, 1.1rem + 0.9vw, 1.6rem); }
 .cta-strip p { color: var(--text-soft); margin-top: 0.35rem; max-width: 52ch; }
 .cta-strip__actions { display: flex; gap: 0.8rem; flex-wrap: wrap; flex: none; }
+@media (max-width: 520px) { .cta-strip__actions { flex: 1 1 100%; } }
 
 /* -----------------------------------------------------------------------
    14. Footer

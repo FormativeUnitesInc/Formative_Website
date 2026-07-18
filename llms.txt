@@ -1,0 +1,41 @@
+# Formative
+
+> Formative (legal name: Formative Unites) is a trust-first marketplace where brands and creators run sponsored content campaigns. Its tagline is "Where brands meet creators with intention." Unlike generic influencer platforms, every profile is built on metrics verified directly by the social platforms (never self-reported), identity is verified before a creator becomes discoverable, campaign funds are held in escrow, deals are signed binding contracts, and reputation is earned from real campaign outcomes.
+
+## What Formative does
+
+- **For creators:** Build a verified media kit from connected social accounts, land legitimate paid brand deals, and get paid automatically the moment work is approved — no invoicing, no chasing.
+- **For brands:** Discover vetted creators on verified metrics, receive an affinity-ranked shortlist with plain-language explanations, sign binding contracts, and pay only for approved work through escrow.
+
+## The five trust guarantees
+
+1. **Verified metrics** — follower and engagement data is pulled through authenticated first-party social APIs, not self-reported.
+2. **Verified identity** — creators verify identity with ID.me before becoming discoverable; brands are verified on identity and company legitimacy.
+3. **Escrowed money** — campaign funds are held in escrow and released only for approved deliverables, with partial-release logic for partially met targets.
+4. **Signed contracts** — agreed terms become a binding, e-signed contract rather than promises in a chat thread.
+5. **Earned reputation** — authentic ratings and real outcomes compound into a track record that can't be faked.
+
+## The matching engine (Creator–Brand Affinity)
+
+Formative scores every creator from 0 to 100 across seven signals — audience alignment, niche and content fit, engagement and reach, track record, price fit, brand safety, and competitive history — each weighted by what a particular brand prioritizes. Results sort into Best Match (85+), Strong Match (70+), and Possible Match (50+). A brief onboarding warm-up personalizes results before a brand's first search, and an AI layer curates and explains the shortlist in plain language but never changes the underlying, auditable score.
+
+## Key pages
+
+- Home: https://formativeunites.us/
+- How it works: https://formativeunites.us/how-it-works.html
+- For Creators: https://formativeunites.us/creators.html
+- For Brands: https://formativeunites.us/brands.html
+- About: https://formativeunites.us/about.html
+
+## Status & contact
+
+Formative is onboarding early-access creators (via waitlist) and brand partners (via demo request). Contact: hello@formativeunites.us
+
+
+## NIL workshops (student-athletes)
+
+Formative runs 60-minute NIL personal-branding workshops for student-athletes and publishes free, downloadable workshop decks. Athletes build three identity words, three content lanes, and a signature post on a one-page Personal Brand Brief, and learn NIL compliance basics (rules vary by division, state, and citizenship status — the materials are educational, not legal advice). Decks are available for football, basketball, baseball, softball, hockey, wrestling, volleyball, track & field, lacrosse, and tennis, each in a High School and a College edition. Library and downloads: https://formativeunites.us/nil.html
+
+## Industries
+
+Formative tailors verified creator matching, escrow, and closed-loop attribution to the industries that spend most on influencer marketing. Individual guides: video games & esports, restaurants & delivery, athleisure & activewear, consumer packaged goods (CPG), beauty & fashion, fitness & wellness, food & beverage, tech/apps/fintech, entertainment & streaming, and politics & advocacy. Hub: https://formativeunites.us/industries.html

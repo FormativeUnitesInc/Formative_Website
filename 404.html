@@ -7,6 +7,7 @@
   <title>Page not found — Formative</title>
   <meta name="robots" content="noindex, follow" />
   <meta name="theme-color" content="#312E81" />
+  <meta name="color-scheme" content="light" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png" />
   <link rel="manifest" href="/site.webmanifest" />
@@ -19,8 +20,8 @@
     <header class="site-header">
     <div class="container">
       <nav class="nav" aria-label="Primary">
-        <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal.png" alt="" width="178" height="32" /></a>
-        <ul class="nav__links">
+        <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal.png" alt="" width="178" height="32" decoding="async" /></a>
+        <ul class="nav__links" id="site-nav-links">
           <li><a class="nav__link" href="/how-it-works.html">How it works</a></li>
           <li><a class="nav__link" href="/creators.html">For Creators</a></li>
           <li><a class="nav__link" href="/brands.html">For Brands</a></li>
@@ -32,13 +33,13 @@
           <a class="btn btn--ghost" href="/brands.html#join">Request a demo</a>
           <a class="btn btn--primary" href="/index.html#join">Get early access</a>
         </div>
-        <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span></button>
+        <button class="nav__toggle" aria-label="Menu" aria-controls="site-nav-links" aria-expanded="false"><span></span></button>
       </nav>
     </div>
   </header>
   <main id="main">
-    <section class="hero" style="min-height:70vh;display:flex;align-items:center">
-      <div class="hero__glow" aria-hidden="true"></div>
+    <section class="hero" style="min-height:70vh;min-height:70svh;display:flex;align-items:center">
+      <div class="hero__glow" aria-hidden="true" data-parallax="0.06"></div>
       <div class="container container--narrow center">
         <p class="text-grad" style="font-size:clamp(4rem,3rem+6vw,8rem);font-weight:900;line-height:1;letter-spacing:-.04em">404</p>
         <h1 style="margin-top:.5rem">This page took an unverified path</h1>
@@ -54,7 +55,7 @@
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand footer__col">
-          <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal-white.png" alt="" width="178" height="32" /></a>
+          <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal-white.png" alt="" width="178" height="32" loading="lazy" decoding="async" /></a>
           <p class="footer__tag">Where brands meet creators with intention. A trust-first marketplace for sponsored content.</p>
         </div>
         <div class="footer__col"><h3>Product</h3><a href="/how-it-works.html">How it works</a><a href="/creators.html">For Creators</a><a href="/brands.html">For Brands</a><a href="/industries.html">Industries</a></div>

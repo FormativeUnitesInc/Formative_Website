@@ -545,6 +545,8 @@ ul { list-style: none; }
    stays visible if JS fails or is disabled). */
 .js .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.6s var(--ease), transform 0.6s var(--ease); }
 .js .reveal.is-in { opacity: 1; transform: none; }
+/* Parallax owns the transform on dual-purpose elements; reveal fades opacity only */
+.js .reveal[data-parallax] { transform: none; transition: opacity 0.6s var(--ease); }
 
 /* -----------------------------------------------------------------------
    17. Responsive

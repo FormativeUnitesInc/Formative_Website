@@ -70,59 +70,6 @@
     reveals.forEach(function (el) { el.classList.add("is-in"); });
   }
 
-  /* ---- Segmented role switch (waitlist / demo forms) ---- */
-  document.querySelectorAll("[data-segmented]").forEach(function (group) {
-    var buttons = group.querySelectorAll("button");
-    buttons.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        buttons.forEach(function (b) { b.classList.remove("is-active"); b.setAttribute("aria-selected", "false"); });
-        btn.classList.add("is-active");
-        btn.setAttribute("aria-selected", "true");
-        var target = btn.getAttribute("data-target");
-        var hidden = document.getElementById(btn.getAttribute("data-role-input"));
-        if (hidden) hidden.value = btn.getAttribute("data-value") || "";
-        document.querySelectorAll("[data-panel]").forEach(function (p) {
-          p.hidden = p.getAttribute("data-panel") !== target;
-        });
-      });
-    });
-  });
-
-  /* ---- Form submit → redirect to the thank-you page ----
-     Works with a static form backend (e.g. Formspree). Until a real
-     endpoint is wired in, it skips the network call and goes straight
-     to the thank-you page so the flow is testable end to end. */
-  document.querySelectorAll("form[data-formspree]").forEach(function (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      if (!form.checkValidity()) { form.reportValidity(); return; }
-
-      var endpoint = form.getAttribute("action") || "";
-      var nextInput = form.querySelector("[name=_next]");
-      var next = (nextInput && nextInput.value) ? nextInput.value : "/thank-you.html";
-      var isPlaceholder = endpoint.indexOf("YOUR_FORM_ID") !== -1 || endpoint === "" || endpoint === "#";
-
-      if (isPlaceholder) { window.location.href = next; return; }
-
-      var btn = form.querySelector("button[type=submit]");
-      var original = btn ? btn.innerHTML : "";
-      if (btn) { btn.disabled = true; btn.innerHTML = "Sending…"; }
-      fetch(endpoint, {
-        method: "POST",
-        body: new FormData(form),
-        headers: { Accept: "application/json" }
-      })
-        .then(function (res) {
-          if (res.ok) { window.location.href = next; }
-          else { if (btn) { btn.disabled = false; btn.innerHTML = original; } alert("Something went wrong. Please try again or email hello@formativeunites.us."); }
-        })
-        .catch(function () {
-          if (btn) { btn.disabled = false; btn.innerHTML = original; }
-          alert("Network error. Please try again or email hello@formativeunites.us.");
-        });
-    });
-  });
-
   /* ---- Parallax (performant, rAF-throttled, motion-safe) ----
      Elements with [data-parallax="0.2"] drift as the page scrolls.
      Disabled for reduced-motion users and on coarse/touch pointers. */

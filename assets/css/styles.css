@@ -457,38 +457,6 @@ ul { list-style: none; }
 /* -----------------------------------------------------------------------
    12. Forms
    ----------------------------------------------------------------------- */
-.form { display: grid; gap: var(--space-4); }
-.form__row { display: grid; gap: var(--space-4); grid-template-columns: 1fr 1fr; }
-.field { display: grid; gap: 0.4rem; }
-.field label { font-size: var(--fs-sm); font-weight: 700; color: var(--text); }
-.field .req { color: var(--pink); }
-.field input, .field select, .field textarea {
-  font-family: inherit; font-size: var(--fs-body); color: var(--text);
-  padding: 0.85rem 1rem; border: 1.5px solid var(--border-strong); border-radius: var(--r-md);
-  background: #fff; transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
-  width: 100%;
-}
-.field textarea { resize: vertical; min-height: 120px; }
-.field input:focus, .field select:focus, .field textarea:focus {
-  outline: none; border-color: var(--purple); box-shadow: 0 0 0 4px rgba(168,85,247,0.15);
-}
-.field__hint { font-size: var(--fs-xs); color: var(--text-mute); }
-.form__consent { font-size: var(--fs-xs); color: var(--text-mute); }
-.form__success {
-  display: none; text-align: center; padding: var(--space-6);
-  background: #e6f7ef; border: 1px solid #bce8d3; border-radius: var(--r-lg); color: #0e7a4f;
-}
-.form__success.is-visible { display: block; }
-.form__success svg { width: 44px; height: 44px; margin: 0 auto var(--space-3); }
-
-/* Segmented control (role switch on forms) */
-.segmented { display: inline-flex; background: var(--bg-tint-2); border-radius: var(--r-pill); padding: 4px; gap: 2px; }
-.segmented button {
-  font-family: inherit; font-weight: 700; font-size: var(--fs-sm); color: var(--text-soft);
-  border: none; background: none; cursor: pointer; padding: 0.55rem 1.2rem; border-radius: var(--r-pill);
-  transition: background 0.2s var(--ease), color 0.2s var(--ease);
-}
-.segmented button.is-active { background: #fff; color: var(--indigo); box-shadow: var(--shadow-xs); }
 
 /* -----------------------------------------------------------------------
    13. CTA band
@@ -506,7 +474,7 @@ ul { list-style: none; }
 .footer__grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: var(--space-6); }
 .footer__brand .brand__word { color: #fff; }
 .footer__tag { color: var(--text-on-dark-soft); font-size: var(--fs-sm); margin-top: var(--space-4); max-width: 30ch; }
-.footer__col h4 { color: #fff; font-size: var(--fs-sm); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-4); }
+.footer__col h3 { color: #fff; font-size: var(--fs-sm); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-4); }
 .footer__col a { display: block; color: var(--text-on-dark-soft); font-size: var(--fs-sm); padding: 0.35rem 0; }
 .footer__col a:hover { color: var(--purple); }
 .footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-3); align-items: center; margin-top: var(--space-7); padding-top: var(--space-5); border-top: 1px solid rgba(255,255,255,0.12); }
@@ -595,7 +563,6 @@ ul { list-style: none; }
   .nav.is-open .nav__link { padding: 0.8rem 0.5rem; font-size: 1rem; }
   .nav.is-open .nav__actions { display: none; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
-  .form__row { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: 1fr; }
   .step { grid-template-columns: 1fr; gap: var(--space-3); }
   .step__num { margin-bottom: 0; }

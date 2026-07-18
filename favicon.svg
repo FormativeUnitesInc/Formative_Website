@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Formative">
+  <rect width="100" height="100" rx="24" fill="#312E81"/>
+  <g fill="#ffffff" transform="translate(19 31) scale(0.477)">
+    <rect x="-9.5" y="27" width="103" height="22" rx="11" transform="rotate(-44.2 42 38)"/>
+    <rect x="69.5" y="30.5" width="74" height="22" rx="11" transform="rotate(58.2 106.5 41.5)"/>
+    <rect x="57" y="61" width="17" height="17" rx="5" transform="rotate(45 65.5 69.5)"/>
+  </g>
+</svg>

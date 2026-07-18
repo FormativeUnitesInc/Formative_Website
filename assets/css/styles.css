@@ -251,8 +251,7 @@ ul { list-style: none; }
 }
 .brand { display: inline-flex; align-items: center; gap: 0.6rem; }
 .brand:hover { color: inherit; }
-.brand__mark { width: 46px; height: 28px; flex: none; }
-.brand__word { font-weight: 800; font-size: 1.32rem; letter-spacing: -0.02em; color: var(--indigo); }
+.brand__logo { height: 32px; width: auto; display: block; }
 
 .nav__links { display: flex; align-items: center; gap: 0.35rem; }
 .nav__link {
@@ -472,7 +471,6 @@ ul { list-style: none; }
    ----------------------------------------------------------------------- */
 .site-footer { background: var(--ink); color: #fff; padding: clamp(3rem, 2rem + 3vw, 4.5rem) 0 2rem; }
 .footer__grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: var(--space-6); }
-.footer__brand .brand__word { color: #fff; }
 .footer__tag { color: var(--text-on-dark-soft); font-size: var(--fs-sm); margin-top: var(--space-4); max-width: 30ch; }
 .footer__col h3 { color: #fff; font-size: var(--fs-sm); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-4); }
 .footer__col a { display: block; color: var(--text-on-dark-soft); font-size: var(--fs-sm); padding: 0.35rem 0; }

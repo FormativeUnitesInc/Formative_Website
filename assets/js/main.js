@@ -73,6 +73,12 @@
       { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
     );
     reveals.forEach(function (el) { io.observe(el); });
+    // Fail-safe: content must never stay invisible if the observer never fires.
+    setTimeout(function () {
+      if (!document.querySelector(".reveal.is-in")) {
+        reveals.forEach(function (el) { el.classList.add("is-in"); });
+      }
+    }, 3000);
   } else {
     reveals.forEach(function (el) { el.classList.add("is-in"); });
   }
@@ -86,13 +92,23 @@
 
   if (!prefersReduced && finePointer && parallaxEls.length) {
     var ticking = false;
+    var baseCenters = [];
+    // Measure each element's untransformed document position so the offset
+    // never feeds back on itself frame to frame.
+    var measure = function () {
+      baseCenters = parallaxEls.map(function (el) {
+        var prev = el.style.transform;
+        el.style.transform = "none";
+        var rect = el.getBoundingClientRect();
+        el.style.transform = prev;
+        return rect.top + window.scrollY + rect.height / 2;
+      });
+    };
     var update = function () {
       var vh = window.innerHeight;
-      parallaxEls.forEach(function (el) {
+      parallaxEls.forEach(function (el, i) {
         var speed = parseFloat(el.getAttribute("data-parallax")) || 0.15;
-        var rect = el.getBoundingClientRect();
-        // distance of element center from viewport center, normalized
-        var center = rect.top + rect.height / 2;
+        var center = baseCenters[i] - window.scrollY;
         var offset = (center - vh / 2) * speed * -1;
         el.style.transform = "translate3d(0," + offset.toFixed(1) + "px,0)";
       });
@@ -102,7 +118,9 @@
       if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
     };
     window.addEventListener("scroll", requestTick, { passive: true });
-    window.addEventListener("resize", requestTick, { passive: true });
+    window.addEventListener("resize", function () { measure(); requestTick(); }, { passive: true });
+    window.addEventListener("load", function () { measure(); requestTick(); });
+    measure();
     update();
   }
 

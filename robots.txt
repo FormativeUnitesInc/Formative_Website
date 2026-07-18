@@ -21,4 +21,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://formativeunites.us/sitemap.xml
+Sitemap: https://www.formativeunites.us/sitemap.xml

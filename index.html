@@ -6,7 +6,7 @@
   <script>document.documentElement.className += " js";</script>
   <title>Formative — Where brands meet creators with intention</title>
   <meta name="description" content="Formative is a trust-first marketplace where brands and creators run sponsored campaigns with verified metrics, verified identity, escrow-backed payments, signed contracts, and earned reputation. Join the early-access waitlist or request a brand demo." />
-  <link rel="canonical" href="https://formativeunites.us/" />
+  <link rel="canonical" href="https://www.formativeunites.us/" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#312E81" />
 
@@ -15,15 +15,15 @@
   <meta property="og:site_name" content="Formative" />
   <meta property="og:title" content="Formative — Where brands meet creators with intention" />
   <meta property="og:description" content="A trust-first creator marketplace: verified metrics, verified identity, escrow-backed pay, signed contracts, earned reputation." />
-  <meta property="og:url" content="https://formativeunites.us/" />
-  <meta property="og:image" content="https://formativeunites.us/assets/img/og.png" />
+  <meta property="og:url" content="https://www.formativeunites.us/" />
+  <meta property="og:image" content="https://www.formativeunites.us/assets/img/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Formative — Where brands meet creators with intention" />
   <meta name="twitter:description" content="A trust-first creator marketplace: verified metrics, verified identity, escrow-backed pay, signed contracts, earned reputation." />
-  <meta name="twitter:image" content="https://formativeunites.us/assets/img/og.png" />
+  <meta name="twitter:image" content="https://www.formativeunites.us/assets/img/og.png" />
 
   <!-- Icons / fonts -->
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
@@ -41,26 +41,26 @@
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://formativeunites.us/#org",
+        "@id": "https://www.formativeunites.us/#org",
         "name": "Formative",
         "legalName": "Formative Unites",
-        "url": "https://formativeunites.us/",
-        "logo": "https://formativeunites.us/assets/img/logo-mark.svg",
+        "url": "https://www.formativeunites.us/",
+        "logo": "https://www.formativeunites.us/assets/img/logo-mark.svg",
         "description": "A trust-first marketplace connecting brands and creators for sponsored content campaigns, built on verified metrics, verified identity, escrow-backed payments, signed contracts, and earned reputation.",
         "email": "hello@formativeunites.us",
         "sameAs": []
       },
       {
         "@type": "WebSite",
-        "@id": "https://formativeunites.us/#website",
-        "url": "https://formativeunites.us/",
+        "@id": "https://www.formativeunites.us/#website",
+        "url": "https://www.formativeunites.us/",
         "name": "Formative",
-        "publisher": { "@id": "https://formativeunites.us/#org" }
+        "publisher": { "@id": "https://www.formativeunites.us/#org" }
       },
       {
         "@type": "Product",
         "name": "Formative",
-        "brand": { "@id": "https://formativeunites.us/#org" },
+        "brand": { "@id": "https://www.formativeunites.us/#org" },
         "description": "A trust-first creator marketplace where brands post campaigns, an affinity engine matches vetted creators, and escrow releases payment only for approved work.",
         "category": "Influencer marketing platform",
         "audience": [
@@ -402,75 +402,8 @@
           <p>Tell us which side you're on. Creators join the early-access waitlist; brands can request a live demo.</p>
         </div>
 
-        <div class="center" style="margin-bottom:2rem">
-          <div class="segmented" data-segmented role="tablist" aria-label="I am a">
-            <button class="is-active" data-target="creator" data-role-input="roleField" data-value="Creator" aria-selected="true" role="tab">I'm a Creator</button>
-            <button data-target="brand" data-role-input="roleField" data-value="Brand" aria-selected="false" role="tab">I'm a Brand</button>
-          </div>
-        </div>
-
         <div class="card" style="padding:clamp(1.5rem,1rem+2vw,2.5rem)">
-          <!-- Creator waitlist -->
-          <div data-panel="creator">
-            <form class="form" data-formspree action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
-              <input type="hidden" name="role" id="roleField" value="Creator" />
-              <input type="hidden" name="_next" value="/thank-you.html?type=waitlist" />
-              <input type="hidden" name="_subject" value="New Formative early-access signup" />
-              <div class="form__fields">
-                <div class="form__row">
-                  <div class="field"><label for="c-name">Name <span class="req">*</span></label><input id="c-name" name="name" type="text" autocomplete="name" required /></div>
-                  <div class="field"><label for="c-email">Email <span class="req">*</span></label><input id="c-email" name="email" type="email" autocomplete="email" required /></div>
-                </div>
-                <div class="form__row">
-                  <div class="field"><label for="c-handle">Primary handle</label><input id="c-handle" name="handle" type="text" placeholder="@yourhandle" /></div>
-                  <div class="field"><label for="c-platform">Main platform</label>
-                    <select id="c-platform" name="platform">
-                      <option value="">Select…</option><option>Instagram</option><option>TikTok</option><option>YouTube</option><option>Multiple</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="field"><label for="c-niche">Your niche</label><input id="c-niche" name="niche" type="text" placeholder="e.g. food, fitness, beauty, gaming" /></div>
-                <button class="btn btn--primary btn--block btn--lg" type="submit">Join the waitlist</button>
-                <p class="form__consent">By joining you agree to be contacted about early access. We never share your data.</p>
-              </div>
-            </form>
-            <div class="form__success">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              <h3 style="color:#0e7a4f">You're on the list!</h3>
-              <p style="color:#0e7a4f">Thanks for joining. We'll email you as early-access spots open up.</p>
-            </div>
-          </div>
-
-          <!-- Brand demo -->
-          <div data-panel="brand" hidden>
-            <form class="form" data-formspree action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
-              <input type="hidden" name="role" value="Brand" />
-              <input type="hidden" name="_next" value="/thank-you.html?type=demo" />
-              <input type="hidden" name="_subject" value="New Formative brand demo request" />
-              <div class="form__fields">
-                <div class="form__row">
-                  <div class="field"><label for="b-name">Name <span class="req">*</span></label><input id="b-name" name="name" type="text" autocomplete="name" required /></div>
-                  <div class="field"><label for="b-email">Work email <span class="req">*</span></label><input id="b-email" name="email" type="email" autocomplete="email" required /></div>
-                </div>
-                <div class="form__row">
-                  <div class="field"><label for="b-company">Company <span class="req">*</span></label><input id="b-company" name="company" type="text" autocomplete="organization" required /></div>
-                  <div class="field"><label for="b-budget">Monthly creator budget</label>
-                    <select id="b-budget" name="budget">
-                      <option value="">Select…</option><option>Under $5k</option><option>$5k–$25k</option><option>$25k–$100k</option><option>$100k+</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="field"><label for="b-goals">What are you hoping to run?</label><textarea id="b-goals" name="goals" placeholder="Campaign goals, platforms, timeline…"></textarea></div>
-                <button class="btn btn--solid btn--block btn--lg" type="submit">Request a demo</button>
-                <p class="form__consent">We'll reach out to schedule a walkthrough. No spam, ever.</p>
-              </div>
-            </form>
-            <div class="form__success">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              <h3 style="color:#0e7a4f">Request received!</h3>
-              <p style="color:#0e7a4f">Thanks — we'll be in touch shortly to set up your demo.</p>
-            </div>
-          </div>
+          <iframe src="https://www.formativeunites.us/widget/survey/HWx3uX0E5tbcFy3YmB1F" style="border:none;width:100%;" scrolling="no" id="HWx3uX0E5tbcFy3YmB1F" title="survey"></iframe>
         </div>
       </div>
     </section>
@@ -499,6 +432,7 @@
     </div>
   </footer>
 
+  <script src="https://www.formativeunites.us/js/form_embed.js"></script>
   <script src="/assets/js/main.js" defer></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
   <link rel="canonical" href="https://www.formativeunites.us/how-it-works.html" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#312E81" />
+  <meta name="color-scheme" content="light" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Formative" />
   <meta property="og:title" content="How Formative Works" />
@@ -57,8 +58,8 @@
     <header class="site-header">
     <div class="container">
       <nav class="nav" aria-label="Primary">
-        <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal.png" alt="" width="178" height="32" /></a>
-        <ul class="nav__links">
+        <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal.png" alt="" width="178" height="32" decoding="async" /></a>
+        <ul class="nav__links" id="site-nav-links">
           <li><a class="nav__link is-active" href="/how-it-works.html" aria-current="page">How it works</a></li>
           <li><a class="nav__link" href="/creators.html">For Creators</a></li>
           <li><a class="nav__link" href="/brands.html">For Brands</a></li>
@@ -70,7 +71,7 @@
           <a class="btn btn--ghost" href="/brands.html#join">Request a demo</a>
           <a class="btn btn--primary" href="/index.html#join">Get early access</a>
         </div>
-        <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span></button>
+        <button class="nav__toggle" aria-label="Menu" aria-controls="site-nav-links" aria-expanded="false"><span></span></button>
       </nav>
     </div>
   </header>
@@ -78,7 +79,7 @@
   <main id="main">
     <!-- Hero -->
     <section class="hero" style="padding-bottom:2rem">
-      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true" data-parallax="0.06"></div>
       <div class="container">
         <div class="section-head" style="margin-bottom:0">
           <span class="pill"><span class="pill__dot"></span> How it works</span>
@@ -196,7 +197,7 @@
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand footer__col">
-          <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal-white.png" alt="" width="178" height="32" /></a>
+          <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal-white.png" alt="" width="178" height="32" loading="lazy" decoding="async" /></a>
           <p class="footer__tag">Where brands meet creators with intention. A trust-first marketplace for sponsored content.</p>
         </div>
         <div class="footer__col"><h3>Product</h3><a href="/how-it-works.html">How it works</a><a href="/creators.html">For Creators</a><a href="/brands.html">For Brands</a><a href="/industries.html">Industries</a></div>

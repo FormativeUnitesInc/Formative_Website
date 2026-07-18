@@ -469,6 +469,12 @@ ul { list-style: none; }
 .cta-band__actions { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; margin-top: var(--space-6); position: relative; }
 
 
+/* Photography */
+.photo-band { margin: 0; border-radius: var(--r-xl); overflow: hidden; box-shadow: var(--shadow-lg); }
+.photo-band img { display: block; width: 100%; height: auto; aspect-ratio: 5 / 2; object-fit: cover; }
+.media-photo { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; border-radius: var(--r-lg); margin-bottom: 1.1rem; }
+.card__thumb { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; border-radius: var(--r-md); margin-bottom: 0.4rem; }
+
 /* Mid-stack CTA strip */
 .cta-strip { display: flex; align-items: center; justify-content: space-between; gap: var(--space-5); flex-wrap: wrap; background: var(--bg-tint-2); border: 1px solid var(--border); border-radius: var(--r-lg); padding: clamp(1.5rem, 1rem + 2vw, 2.25rem) clamp(1.5rem, 1rem + 2.5vw, 2.75rem); }
 .cta-strip h2 { font-size: clamp(1.25rem, 1.1rem + 0.9vw, 1.6rem); }

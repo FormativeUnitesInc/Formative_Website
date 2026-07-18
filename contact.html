@@ -4,12 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script>document.documentElement.className += " js";</script>
-  <title>Page not found — Formative</title>
-  <meta name="robots" content="noindex, follow" />
+  <title>Get early access — Formative</title>
+  <meta name="description" content="Join the creator early-access waitlist or request a brand demo. One quick form — we'll take it from there." />
   <meta name="theme-color" content="#312E81" />
   <meta name="color-scheme" content="light" />
+  <link rel="canonical" href="https://www.formativeunites.us/contact.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Get early access — Formative" />
+  <meta property="og:description" content="Join the creator early-access waitlist or request a brand demo." />
+  <meta property="og:url" content="https://www.formativeunites.us/contact.html" />
+  <meta property="og:image" content="https://www.formativeunites.us/assets/img/og.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png" />
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +24,8 @@
   <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
 <body>
-    <header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
     <div class="container">
       <nav class="nav" aria-label="Primary">
         <a class="brand" href="/index.html" aria-label="Formative home"><img class="brand__logo" src="/assets/img/logo-horizontal.png" alt="" width="178" height="32" decoding="async" /></a>
@@ -37,21 +45,28 @@
       </nav>
     </div>
   </header>
+
   <main id="main">
-    <section class="hero" style="min-height:70vh;min-height:70svh;display:flex;align-items:center">
+    <section class="hero" style="padding-bottom:0">
       <div class="hero__glow" aria-hidden="true" data-parallax="0.06"></div>
       <div class="container container--narrow center">
-        <p class="text-grad" style="font-size:clamp(4rem,3rem+6vw,8rem);font-weight:900;line-height:1;letter-spacing:-.04em">404</p>
-        <h1 style="margin-top:.5rem">This page took an unverified path</h1>
-        <p class="lead" style="margin:1.25rem auto 0;max-width:46ch">We couldn't find what you're looking for — but everything on Formative is easy to get back to.</p>
-        <div class="hero__cta" style="justify-content:center;margin-top:2rem">
-          <a class="btn btn--primary btn--lg" href="/index.html">Back to home</a>
-          <a class="btn btn--ghost btn--lg" href="/how-it-works.html">How it works</a>
+        <span class="eyebrow">Get started</span>
+        <h1 class="hero__title" style="font-size:var(--fs-h1)">Let's find your <span class="text-grad">match.</span></h1>
+        <p class="lead" style="margin:1.25rem auto 0;max-width:52ch">Creators join the early-access waitlist. Brands request a live demo. Tell us which side you're on and we'll take it from there.</p>
+      </div>
+    </section>
+
+    <section class="section anchor" id="form">
+      <div class="container container--narrow">
+        <div class="card" style="padding:clamp(1.5rem,1rem+2vw,2.5rem)">
+          <iframe src="https://api.leadconnectorhq.com/widget/survey/HWx3uX0E5tbcFy3YmB1F" style="border:none;width:100%;min-height:620px" scrolling="no" id="HWx3uX0E5tbcFy3YmB1F" title="Early access and demo request form"></iframe>
         </div>
+        <p class="center" style="margin-top:1.5rem;color:var(--text-mute)">Prefer email? Reach us at <a href="mailto:hello@formativeunites.us">hello@formativeunites.us</a></p>
       </div>
     </section>
   </main>
-    <footer class="site-footer">
+
+  <footer class="site-footer">
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand footer__col">
@@ -72,6 +87,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://link.msgsndr.com/js/form_embed.js"></script>
   <script src="/assets/js/main.js" defer></script>
 </body>
 </html>

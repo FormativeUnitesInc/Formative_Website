@@ -1,19 +1,19 @@
 # Formative
 
-> Formative (legal name: Formative Unites) is a trust-first marketplace where brands and creators run sponsored content campaigns. Its tagline is "Where brands meet creators with intention." Unlike generic influencer platforms, every profile is built on metrics verified directly by the social platforms (never self-reported), identity is verified before a creator becomes discoverable, campaign funds are held in escrow, deals are signed binding contracts, and reputation is earned from real campaign outcomes.
+> Formative (legal name: Formative Unites) is a trust-first marketplace where brands and creators run sponsored content campaigns. Its tagline is "Where brands meet creators with intention." Unlike generic influencer platforms, every profile is built on metrics verified directly by the social platforms (never self-reported), identity is verified before a creator becomes discoverable, campaign funds are secured before work starts and released on verified delivery, deals are signed binding contracts, and reputation is earned from real campaign outcomes.
 
 ## What Formative does
 
-- **For creators:** Build a verified media kit from connected social accounts, land legitimate paid brand deals, and get paid automatically the moment work is approved — no invoicing, no chasing.
-- **For brands:** Discover vetted creators on verified metrics, receive an affinity-ranked shortlist with plain-language explanations, sign binding contracts, and pay only for approved work through escrow.
+- **For creators:** Build a verified media kit from connected social accounts, land legitimate paid brand deals, and get paid once work is approved, with no invoicing and no chasing.
+- **For brands:** Discover vetted creators on verified metrics, receive an affinity-ranked shortlist with plain-language explanations, sign binding contracts, and pay only for approved work, with funds secured before work starts.
 
-## The five trust guarantees
+## The five trust protections
 
-1. **Verified metrics** — follower and engagement data is pulled through authenticated first-party social APIs, not self-reported.
-2. **Verified identity** — creators verify identity with ID.me before becoming discoverable; brands are verified on identity and company legitimacy.
-3. **Escrowed money** — campaign funds are held in escrow and released only for approved deliverables, with partial-release logic for partially met targets.
-4. **Signed contracts** — agreed terms become a binding, e-signed contract rather than promises in a chat thread.
-5. **Earned reputation** — authentic ratings and real outcomes compound into a track record that can't be faked.
+1. **Verified metrics**: follower and engagement data is pulled through authenticated first-party social APIs, not self-reported.
+2. **Verified identity**: creators verify their identity before becoming discoverable; brands are verified on identity and company legitimacy.
+3. **Secured funds**: campaign funds are secured before work starts and released only for approved deliverables, with partial-release logic for partially met targets.
+4. **Signed contracts**: agreed terms become a binding, e-signed contract rather than promises in a chat thread.
+5. **Earned reputation**: authentic ratings and real outcomes compound into a track record that can't be faked.
 
 ## The matching engine (Creator–Brand Affinity)
 
@@ -54,4 +54,4 @@ Formative runs 60-minute NIL personal-branding workshops for student-athletes an
 
 ## Industries
 
-Formative tailors verified creator matching, escrow, and closed-loop attribution to the industries that spend most on influencer marketing. Individual guides: video games & esports, restaurants & delivery, athleisure & activewear, consumer packaged goods (CPG), beauty & fashion, fitness & wellness, food & beverage, tech/apps/fintech, entertainment & streaming, and politics & advocacy. Hub: https://www.formativeunites.us/industries.html
+Formative tailors verified creator matching, secured payments, and closed-loop attribution to the industries that spend most on influencer marketing. Individual guides: video games & esports, restaurants & delivery, athleisure & activewear, consumer packaged goods (CPG), beauty & fashion, fitness & wellness, food & beverage, tech/apps/fintech, entertainment & streaming, and politics & advocacy. Hub: https://www.formativeunites.us/industries.html

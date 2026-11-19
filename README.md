@@ -10,8 +10,8 @@ A fast, responsive, SEO/AEO-optimized marketing site for **Formative** (Formativ
 |------|---------|
 | `index.html` | Home — dual creator/brand hero, trust pillars, matching engine, signup |
 | `creators.html` | For Creators — value prop, journey, media kit, waitlist |
-| `brands.html` | For Brands — matching engine, escrow, demo request |
-| `how-it-works.html` | Deal flow, the CBA engine explained, the five trust guarantees |
+| `brands.html` | For Brands: matching engine, secured payments, demo request |
+| `how-it-works.html` | Deal flow, the CBA engine explained, the five trust protections |
 | `about.html` | Mission, values, positioning |
 | `nil.html` | NIL — workshop story, compliance stance, and the downloadable deck library |
 | `industries.html` | Industries hub linking to each vertical |
